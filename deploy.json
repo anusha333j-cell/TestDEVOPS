@@ -5,13 +5,13 @@
     "adminusername": {
       "type": "string",
       "metadata": {
-        "description": "Admin@anusha"
+        "description":"Admin@anusha"
       }
     },
     "password": {
       "type": "securestring",
       "metadata": {
-        "description": "Damala@052020"
+        "description":"Damala@052020"
       }
     },
     "dnsLabelPrefix": {
