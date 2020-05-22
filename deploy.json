@@ -2,16 +2,16 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "Anusha": {
+    "adminusername": {
       "type": "string",
       "metadata": {
-        "description": "Username for the Virtual Machine."
+        "description": "Admin@anusha"
       }
     },
-    "damala456": {
+    "password": {
       "type": "securestring",
       "metadata": {
-        "description": "Password for the Virtual Machine."
+        "description": "Damala@052020"
       }
     },
     "dnsLabelPrefix": {
@@ -40,7 +40,7 @@
       "type": "string",
       "defaultValue": "Standard_D2_v3",
       "metadata": {
-        "description": "Size of the virtual machine."
+        "description": "Standard_D2_v3"
       }
     },
     "location": {
